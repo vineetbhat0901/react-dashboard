@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import DashboardStatGrid from "./DashboardStatGrid";
 import TransactionChart from "./TransactionChart";
 
 export default function Dashboard() {
     return (
-        <div className="flex gap-4">
-            <DashboardStatGrid/>
-            <TransactionChart/>
+        <div className="flex flex-col gap-4">
+            <DashboardStatGrid />
+			<div className="flex flex-row gap-4 w-full">
+				<TransactionChart />
+			</div>
         </div>
     )    
 }
