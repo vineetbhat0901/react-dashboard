@@ -1,7 +1,7 @@
 import Layout from "./components/shared/layout"
-import Dashboard from "./components/Dashboard"
 import Products from "./components/Products"
 import { BrowserRouter , Routes, Route } from "react-router-dom"
+import Dashboard from "./components/dashboard"
 
 
 
